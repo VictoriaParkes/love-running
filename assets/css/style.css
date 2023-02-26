@@ -36,9 +36,12 @@ h1, h2 {
     line-height: 75px;
 }
 
-/* TO-DO: make list display in reverse order using css */
+nav > ul {
+    text-align: right;
+}
+
 #menu li {
-    float: right;
+    display: inline;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -209,4 +212,23 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
